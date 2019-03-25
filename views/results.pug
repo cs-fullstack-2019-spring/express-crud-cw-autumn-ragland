@@ -1,0 +1,12 @@
+extends layout
+
+block content
+    h1 Results
+
+    if idResults
+        h3 Search by Street Id Results
+        p #{idResults}
+
+    if updateDate
+        h3 Date Updated
+        p #{updateDate}
